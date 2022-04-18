@@ -12,6 +12,7 @@ def measure_time(n: int, max_delay: int) -> float:
     Args:
         n: the number of coroutines for execution
         max_delay: the maximum wait time
+
     Returns: elapsed time in seconds
     '''
     start = perf_counter()
