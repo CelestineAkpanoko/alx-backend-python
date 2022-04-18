@@ -1,4 +1,4 @@
-#!/usr/bin/env Python3
+#!/usr/bin/env python3
 '''A script that returns a asyncio task'''
 import asyncio
 
