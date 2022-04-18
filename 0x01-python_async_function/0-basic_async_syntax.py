@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+""" A coroutine that waits randomly and return its wait value"""
 
 import asyncio
 import random
+
 
 async def wait_random(max_delay: int = 10) -> float:
     """
@@ -15,4 +17,3 @@ async def wait_random(max_delay: int = 10) -> float:
     delay_value = random.uniform(0, max_delay)
     await asyncio.sleep(delay_value)
     return delay_value
-
